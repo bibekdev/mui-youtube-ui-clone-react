@@ -6,7 +6,11 @@ import Searchbar from './Searchbar'
 import Upload from './Upload'
 import UserProfile from './UserProfile'
 
-const Navbar: React.FC = () => {
+interface Props {
+  handleDrawerToggle: () => void
+}
+
+const Navbar: React.FC<Props> = ({ handleDrawerToggle }) => {
   return (
     <AppBar sx={{ backgroundColor: 'white', color: '#000' }}>
       <Toolbar>
@@ -17,7 +21,11 @@ const Navbar: React.FC = () => {
             flexGrow: 1,
           }}>
           <Box display='flex' alignItems='center'>
-            <IconButton color='inherit' aria-label='open-drawer' sx={{ mr: 1 }}>
+            <IconButton
+              color='inherit'
+              aria-label='open-drawer'
+              sx={{ mr: 1 }}
+              onClick={handleDrawerToggle}>
               <Menu />
             </IconButton>
             <AiFillYoutube

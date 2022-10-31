@@ -83,3 +83,42 @@ export const notificationData = [
     alt: 'item 4',
   },
 ]
+
+export const sideListItems = [
+  { id: 1, text: 'Home', icon: <AiFillHome size={24} /> },
+  { id: 2, text: 'Explore', icon: <MdOutlineExplore size={24} /> },
+  { id: 3, text: 'Shorts', icon: <AiOutlinePlaySquare size={24} /> },
+  { id: 4, text: 'Subscriptions', icon: <MdSubscriptions size={24} /> },
+  { id: 5, divider: true },
+  { id: 6, text: 'Library', icon: <BiLibrary size={24} /> },
+  { id: 7, text: 'History', icon: <MdHistory size={24} /> },
+  { id: 8, text: 'Your Videos', icon: <BiVideo size={24} /> },
+  { id: 9, text: 'Watch Later', icon: <BsStopwatch size={24} /> },
+  { id: 10, subdivision: true, text: 'Explore' },
+  { id: 11, text: 'Movies & Shows', icon: <MdLocalMovies size={24} /> },
+  { id: 12, text: 'Gaming', icon: <SiFacebookgaming size={24} /> },
+  { id: 13, text: 'Live', icon: <SiLivechat size={24} /> },
+  { id: 14, text: 'Fashion & Beauty', icon: <GiLargeDress size={24} /> },
+  { id: 15, subdivision: true, text: 'More from Youtube' },
+  {
+    id: 16,
+    text: 'Youtube Premium',
+    icon: <AiFillYoutube size={24} color='red' />,
+  },
+  {
+    id: 17,
+    text: 'Creator Studio',
+    icon: <SiYoutubestudio size={24} color='red' />,
+  },
+  {
+    id: 18,
+    text: 'Youtube Music',
+    icon: <TbBrandYoutube size={24} color='red' />,
+  },
+  { id: 19, text: 'Youtube TV', icon: <CgYoutube size={24} color='red' /> },
+  { id: 20, divider: true },
+  { id: 21, text: 'Settings', icon: <FiSettings size={24} /> },
+  { id: 22, text: 'Report History', icon: <FaHistory size={24} /> },
+  { id: 23, text: 'Help', icon: <FiHelpCircle size={24} /> },
+  { id: 24, text: 'Send Feedback', icon: <MdFeedback size={24} /> },
+]
