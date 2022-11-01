@@ -3,6 +3,7 @@ import { Box } from '@mui/material'
 import Sidebar from './components/sidebar/Sidebar'
 import { useState } from 'react'
 import TabList from './components/tab-list/TabList'
+import CardList from './components/card/CardList'
 
 const App = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false)
@@ -23,6 +24,17 @@ const App = () => {
           sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
           <Box sx={{ my: 2, width: `calc(100vw-${sidebarWidth})` }}>
             <TabList />
+          </Box>
+          <Box
+            component='div'
+            sx={{
+              flexGrow: 1,
+              p: 1,
+              overflowY: 'auto',
+              overflowX: 'hidden',
+              width: `calc(100vw - ${sidebarWidth})`,
+            }}>
+            <CardList />
           </Box>
         </Box>
       </Box>

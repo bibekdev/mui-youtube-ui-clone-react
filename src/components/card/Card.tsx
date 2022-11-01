@@ -13,17 +13,26 @@ import {
 import { AiFillCheckCircle } from 'react-icons/ai'
 
 interface Props {
-  url: string
+  id: number
+  image: string
   title: string
-  channelTitle: string
+  channelName: string
   videoId: string
+  avatar: string
 }
 
-const Card: React.FC<Props> = ({ url, title, channelTitle, videoId }) => {
+const Card: React.FC<Props> = ({
+  id,
+  image,
+  title,
+  channelName,
+  videoId,
+  avatar,
+}) => {
   return (
-    <MuiCard sx={{ boxShadow: 0 }}>
+    <MuiCard sx={{ boxShadow: 0, cursor: 'pointer' }} key={id}>
       <Link href={`https://youtube.com/watch?v=${videoId}`}>
-        <CardMedia component='img' height='240' image={url} alt={title} />
+        <CardMedia component='img' height='240' image={image} alt={title} />
       </Link>
       <CardContent sx={{ m: 0, p: 0 }}>
         <List
@@ -36,10 +45,7 @@ const Card: React.FC<Props> = ({ url, title, channelTitle, videoId }) => {
           }}>
           <ListItem>
             <ListItemAvatar>
-              <Avatar
-                alt='Channel avatar'
-                src={`https://i.pravatar.cc/150?img=1`}
-              />
+              <Avatar alt='Channel avatar' src={avatar} />
             </ListItemAvatar>
             <Box
               sx={{
@@ -60,7 +66,7 @@ const Card: React.FC<Props> = ({ url, title, channelTitle, videoId }) => {
                   gutterBottom
                   variant='h5'
                   component='div'>
-                  {channelTitle}
+                  {channelName}
                 </Typography>
                 <AiFillCheckCircle />
               </Box>

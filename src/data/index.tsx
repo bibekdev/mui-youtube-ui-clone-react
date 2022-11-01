@@ -140,3 +140,60 @@ export const tabItems = [
   { id: 14, text: 'Pop Music' },
   { id: 15, text: 'Recently Updated' },
 ]
+
+export const youtubeResponse = [
+  {
+    id: 1,
+    image: 'https://i.ytimg.com/vi/DHjqpvDnNGE/hqdefault.jpg',
+    title: 'Javascript in 100 seconds',
+    channelName: 'FireShip',
+    videoId: 'DHjqpvDnNGE',
+    avatar:
+      'https://yt3.ggpht.com/ytc/AMLnZu80d66aj0mK3KEyMfpdGFyrVWdV5tfezE17IwRkhw=s68-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    id: 2,
+    image: 'https://i.ytimg.com/vi/HGoTIw-EiJg/hqdefault.jpg',
+    title: 'Saath Hum Rahein (Official Video):Drishyam 2|',
+    channelName: 'Panaroma Music',
+    videoId: 'HGoTIw-EiJg',
+    avatar:
+      'https://yt3.ggpht.com/3HhNopeNng6gtLaaO2-uKQ6DzL7y6A81up3FLJA20gHntArc7y8Mk6aaJwyMRm7VQz5XV4AjAqs=s88-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    id: 3,
+    image: 'https://i.ytimg.com/vi/j2r2nDhTzO4/hqdefault.jpg',
+    title: 'Poison - Every Rose Has Its Thorn (Official Music Video)',
+    channelName: 'Poison',
+    videoId: 'j2r2nDhTzO4',
+    avatar:
+      'https://yt3.ggpht.com/3HhNopeNng6gtLaaO2-uKQ6DzL7y6A81up3FLJA20gHntArc7y8Mk6aaJwyMRm7VQz5XV4AjAqs=s88-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    id: 4,
+    image: 'https://i.ytimg.com/vi/cuqZPx0H7a0/hqdefault.jpg',
+    title: 'U2 - Song For Someone',
+    channelName: 'U2',
+    videoId: 'cuqZPx0H7a0',
+    avatar:
+      'https://yt3.ggpht.com/IKDZxEFtNCEOxYt90MJylCo500S1hwYBgt7J1Gq2MBmzD1YKVKXNHSe2niOFs9YvpBibpUWZdA=s88-c-k-c0x00ffffff-no-nd-rj',
+  },
+  {
+    id: 5,
+    image: 'https://i.ytimg.com/vi/p7OUQ9U2qIw/hqdefault.jpg',
+    title: '1899 | Official Trailer | Netflix',
+    channelName: 'Netflix',
+    videoId: 'p7OUQ9U2qIw',
+    avatar:
+      'https://yt3.ggpht.com/ytc/AMLnZu8ez2zjv7E2Sp0qzjYCnrpBMLMm5c26MJkGBIQHww=s68-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    id: 6,
+    image: 'https://i.ytimg.com/vi/A_MjCqQoLLA/hqdefault.jpg',
+    title: 'The Beatles - Hey Jude',
+    channelName: 'The Beatles',
+    videoId: 'A_MjCqQoLLA',
+    avatar:
+      'https://yt3.ggpht.com/ytc/AMLnZu_I8jMv3bySvvG5aqNqUtlZKDRtL4J5EjsgbO3knA=s88-c-k-c0x00ffffff-no-rj-mo',
+  },
+]
