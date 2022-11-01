@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Youtube UI Clone</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://i.postimg.cc/NG4ktVKT/mui-youtube-ui-clone-react.png" alt="project-image"></p>
 
-## Available Scripts
+<h2>🚀 Demo</h2>
 
-In the project directory, you can run:
+[https://netflix-ui-clone-nextjs.vercel.app/](https://netflix-ui-clone-nextjs.vercel.app/)
 
-### `yarn start`
+<h2>💻 Built with</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Technologies used in the project:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div style="display:flex">
+<img src="https://i.postimg.cc/rm51krfJ/react.png" alt="project-screenshot" width="150">
+<img src="https://i.postimg.cc/k5zs99qn/material-ui.png" alt="project-screenshot" width="150">
+<img src="https://i.postimg.cc/7PM3tSGP/typescript.png" alt="project-screenshot" width="150">
+</div>
 
-### `yarn test`
+<h2>Project Screenshots:</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://i.postimg.cc/DytzWvDX/youtube-ui-clone.png" alt="project-screenshot" width="1000">
 
-### `yarn build`
+<h2>🛠️ Installation Steps:</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>1. Clone this repo</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone git@github.com:bibekdev/netflix-ui-clone-nextjs.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>2. Install dependency</p>
 
-### `yarn eject`
+```
+yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>3. Run dev server</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn dev
+```
