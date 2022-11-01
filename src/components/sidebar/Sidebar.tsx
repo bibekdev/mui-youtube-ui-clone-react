@@ -13,10 +13,11 @@ import { sideListItems } from '../../data'
 
 interface Props {
   isOpen: boolean
+  sidebarWidth: string
 }
 
-const Sidebar: React.FC<Props> = ({ isOpen }) => {
-  const sidebarWidth = isOpen ? '70px' : '250px'
+const Sidebar: React.FC<Props> = ({ isOpen, sidebarWidth }) => {
+  // const sidebarWidth = isOpen ? '70px' : '250px'
 
   return (
     <Box

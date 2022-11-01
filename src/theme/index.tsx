@@ -17,4 +17,38 @@ export const theme = createTheme({
       main: pink[500],
     },
   },
+  components: {
+    MuiTabs: {
+      styleOverrides: {
+        indicator: {
+          backgroundColor: 'transparent',
+        },
+      },
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#eee',
+          borderRadius: 30,
+          marginRight: '10px',
+          marginTop: '10px',
+          minHeight: '20px',
+          minWidth: '60px',
+          transition: 'all .2s ease-in',
+          ':active': {
+            backgroundColor: 'black',
+            color: 'white',
+          },
+          ':focus': {
+            backgroundColor: 'black',
+            color: 'white',
+          },
+          ':selected': {
+            backgroundColor: 'black',
+            color: 'white',
+          },
+        },
+      },
+    },
+  },
 })

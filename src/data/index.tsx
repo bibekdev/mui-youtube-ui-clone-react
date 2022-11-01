@@ -24,7 +24,7 @@ import { GrChannel } from 'react-icons/gr'
 import { MdCardMembership } from 'react-icons/md'
 import { SiReasonstudios } from 'react-icons/si'
 import { AiOutlineDatabase } from 'react-icons/ai'
-import { FiPlay } from 'react-icons/fi'
+// import { FiPlay } from 'react-icons/fi'
 
 export const uploadMenuItems = [
   { id: 1, icon: <FiPlayCircle size={24} />, text: 'Upload Video' },
@@ -121,4 +121,22 @@ export const sideListItems = [
   { id: 22, text: 'Report History', icon: <FaHistory size={24} /> },
   { id: 23, text: 'Help', icon: <FiHelpCircle size={24} /> },
   { id: 24, text: 'Send Feedback', icon: <MdFeedback size={24} /> },
+]
+
+export const tabItems = [
+  { id: 1, text: 'All' },
+  { id: 2, text: 'Music' },
+  { id: 3, text: 'A.R. Rahman' },
+  { id: 4, text: 'Cinema' },
+  { id: 5, text: 'Javascript' },
+  { id: 6, text: 'Live' },
+  { id: 7, text: 'Editing' },
+  { id: 8, text: 'Web Development' },
+  { id: 9, text: 'Wes Bos' },
+  { id: 10, text: 'Film' },
+  { id: 11, text: 'Debate' },
+  { id: 12, text: 'Football' },
+  { id: 13, text: 'Conversation' },
+  { id: 14, text: 'Pop Music' },
+  { id: 15, text: 'Recently Updated' },
 ]
