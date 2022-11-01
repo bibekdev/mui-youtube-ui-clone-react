@@ -4,7 +4,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://netflix-ui-clone-nextjs.vercel.app/](https://netflix-ui-clone-nextjs.vercel.app/)
+[https://bibekdev-youtube-ui-clone.netlify.app/](https://bibekdev-youtube-ui-clone.netlify.app/)
 
 <h2>💻 Built with</h2>
 
@@ -25,7 +25,7 @@ Technologies used in the project:
 <p>1. Clone this repo</p>
 
 ```
-git clone git@github.com:bibekdev/netflix-ui-clone-nextjs.git
+git clone git@github.com:bibekdev/mui-youtube-ui-clone-react.git
 ```
 
 <p>2. Install dependency</p>
